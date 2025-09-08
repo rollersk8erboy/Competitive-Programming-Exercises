@@ -8,8 +8,8 @@ public class Chessboard {
     public static void main(String[] args) throws IOException {
         BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
         StringTokenizer stringTokenizer = new StringTokenizer(bufferedReader.readLine());
-        char x = stringTokenizer.nextToken().charAt(0);
-        int y = Integer.parseInt(stringTokenizer.nextToken());
+        Character x = stringTokenizer.nextToken().charAt(0);
+        Integer y = Integer.parseInt(stringTokenizer.nextToken());
         String result = getColor(x, y);
         System.out.println(result);
     }
